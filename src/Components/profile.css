@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.body1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.Profile {
+  text-align: center;
+  display: block;
+  width: 55%;
+  background-color: rgba(13, 26, 52,0.9);
+  border-radius: 1.5em;
+  padding: 1.5em;
+  margin-top: 40px;
+  box-shadow:  0em 0.3em 0.3em rgba(14, 23, 48, 0.3);
+  height: 78vh;
+}
+
+.h1profil {
+  color:  #e4d9ba;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.lab {
+  font-family: Calibri, serif;
+  font-size: 16px;
+  text-align: left;
+  align-content: center ;
+  display: inline-block;
+  color: #fff;
+  width: 25%;
+  padding: 9px 26px;
+}
+
+
+.profilinput {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 60%; /* Adjust width for padding */
+  border: 1px solid #5f5f5f; /* Add border */
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin: 0;
+  background-color: #dbcb9f;
+}
+
+.btnprofil,
+.btnn1profil {
+  width: 12%;
+  display: inline-block;
+  align-items: center;
+  padding: 8px 0; /* Add padding */
+  background-color: rgb(104, 202, 219);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.btnprofil:hover,
+.btnn1profil:hover {
+  background-color: #1695ab;
+}
+
+.profilelogout {
+  position: absolute;
+  top: 17%;
+  right: 12%;
+  padding: 8px 16px;
+  background-color: burlywood;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

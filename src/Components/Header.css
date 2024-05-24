@@ -1,0 +1,37 @@
+/* Header styles */
+.header {
+    background-color:rgba(13, 26, 52, 0.841);
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /* Adjust the z-index as needed */
+  }
+  
+  /* Logo styles */
+
+  .logo a {
+    color: white; 
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 580px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+ .log{
+   position: relative;
+    width: 240px;
+    height: 78px;
+ }
+ .log_left{
+    display: flex;
+    flex: 1;
+ }

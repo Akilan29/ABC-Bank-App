@@ -1,0 +1,159 @@
+/* Styling for the main container */
+.account-statement {
+  background-color: rgba(13, 26, 52, 0.8);
+  display: block;
+  padding: 20px;
+  width: 85%;
+  height: 65vh;
+  border-radius: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 51.5%);
+  margin-top: -100px;
+}
+
+/* Styling for the background header */
+.background {
+  padding-bottom: 1%;
+  text-align: center;
+  font-size: 18px;
+  color: #e4d9ba;
+  font-weight: bold;
+}
+
+.background h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the account number */
+.statname {
+  padding-bottom: 1%;
+  margin-left: 20px;
+  color: #CCCCCC;
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+/* Styling for the table */
+.tablestate {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.titstat {
+  background-color: rgb(160, 211, 141);
+  border: 1px solid black;
+}
+
+.tablerow {
+  background-color: white;
+}
+
+.tablerow td, tr{
+ padding: -10px 5px;
+ text-align: center;
+ font-size: medium;
+}
+/* Styling for table elements */
+
+
+/* Styling for the logout button */
+.statelogout {
+  margin-left: 82.8%;
+  background-color: burlywood;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: translateY(15.0vh);
+}
+
+/* Styling for the back button */
+.back-button2 {
+  position: absolute;
+  text-align: center;
+  right: 47%;
+  bottom: 15%;
+  color: rgb(13, 26, 52);
+  background-color: burlywood;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  cursor: pointer;
+  width: 60px;
+  height: 6vh;
+  font-size: medium;
+}
+
+/* Styling for the pagination */
+.Pagination {
+  position: absolute;
+  display: flex;
+  font-size: 15px;
+  transform: translate(1000px, 158px);
+}
+
+.PageNumber {
+  position: relative;
+  color: white;
+  padding: 5px 12px;
+  font-family: calibri;
+  outline: solid;
+  outline-color: #ccc;
+  outline-width: 0.5px;
+  border-radius: 3px;
+  background-color: black;
+
+}
+
+.NextButton,
+.PrevButton {
+  position: relative;
+  width: 65px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.NextButton{
+  margin-left: 3.5px;
+}
+
+.PrevButton{
+  margin-right: 3.5px;
+}
+
+.credited {
+  background-color: #d4edda; /* Light green */
+}
+
+.debited {
+  background-color: #f8d7da; /* Light red */
+}
+
+.FirstButton, .LastButton{
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.FirstButton{
+  margin-top: 3px;
+  width: 25px;
+  height: 22px;
+  margin-right: 3px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.LastButton{
+  margin-top: 3.5px;
+  width: 25px;
+  height: 22px;
+  margin-left: 3px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
